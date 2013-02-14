@@ -18,3 +18,4 @@ The 7219 and 7221 are basically the same chip, it shouldn't matter which you use
   # The initial quantity is set to two, but I changed it to four and still got them for free. (I dont know if there is a cap)
   # Tell them roughly how many hours in a year you plan on using the chip(s)
   # Click the "checkout" link
+  # From here on, you just fill out your information
