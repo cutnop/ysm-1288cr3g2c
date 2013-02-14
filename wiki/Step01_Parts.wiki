@@ -2,7 +2,7 @@
 
 = LED Matrix =
 
-     The YSM-1288CR3G2C is a dual color LED matrix that you can buy from https://www.sparkfun.com/search/results?term=LED+Matrix&what=products. They have a small for $5, medium for $7, and a large tri-color for $30.
+     The YSM-1288CR3G2C is a dual color LED matrix that you can buy from [https://www.sparkfun.com/search/results?term=LED+Matrix&what=products Sparkfun.com]. They have a small for $5, medium for $7, and a large tri-color for $30.
 
      I used the medium sized matrix and the width of the chip is quite large. As a word of caution, you may need a breadboard with two columns( twice the width of a typical breadboard ) to access the pins.
 
