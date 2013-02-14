@@ -8,4 +8,4 @@
 
 = MAXIM's MAX7219/MAX7221 =
 
-     The 7219 and 7221 are basically the 
+     The 7219 and 7221 are basically the same chip, it shouldn't matter which you use. I used the MAX7221 because if you go to this [https://shop.maximintegrated.com/storefront/samplecart.do?event=SampleNow&partnumber=MAX7221CNG%2b&rownum=1 MAXIM LINK], you can get free sample of the chip!!!
