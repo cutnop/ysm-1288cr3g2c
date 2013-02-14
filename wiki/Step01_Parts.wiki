@@ -11,7 +11,7 @@
      The 7219 and 7221 are basically the same chip, it shouldn't matter which you use. I used the MAX7221 because if you go to this [https://shop.maximintegrated.com/storefront/searchsample.do MAXIM LINK], and search for MAX7221CNG+, you can get free sample of the chip!!!
 
      note: before you order your free samples, be aware that they wont take personal email accounts when you register. You have to use your school email address to get around this.
-
+*How to order
 # Go to link above and search for MAX7221CNG+ 
 # Click the "sample now" link in the right most column
 # Click the "sample cart" directly below the sites search bar in the top right
