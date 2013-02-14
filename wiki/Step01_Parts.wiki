@@ -12,9 +12,9 @@
 
      note: before you order your free samples, be aware that they wont take personal email accounts when you register. You have to use your school email address to get around this.
 
-     1)Go to link above and search for MAX7221CNG+ 
-     2)Click the "sample now" link in the right most column
-     3)Click the "sample cart" directly below the sites search bar in the top right
-     4)The initial quantity is set to two, but I changed it to four and still got them for free. (I dont know if there is a cap)
-     5)Tell them roughly how many hours in a year you plan on using the chip(s)
-     6)Click the "checkout" link
+# Go to link above and search for MAX7221CNG+ 
+# Click the "sample now" link in the right most column
+# Click the "sample cart" directly below the sites search bar in the top right
+# The initial quantity is set to two, but I changed it to four and still got them for free. (I dont know if there is a cap)
+# Tell them roughly how many hours in a year you plan on using the chip(s)
+# Click the "checkout" link
