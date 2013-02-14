@@ -2,19 +2,19 @@
 
 = LED Matrix =
 
-     The YSM-1288CR3G2C is a dual color LED matrix that you can buy from [https://www.sparkfun.com/search/results?term=LED+Matrix&what=products Sparkfun.com]. They have a small for $5, medium for $7, and a large tri-color for $30.
+The YSM-1288CR3G2C is a dual color LED matrix that you can buy from [https://www.sparkfun.com/search/results?term=LED+Matrix&what=products Sparkfun.com]. They have a small for $5, medium for $7, and a large tri-color for $30.
 
-     I used the medium sized matrix and the width of the chip is quite large. As a word of caution, you may need a breadboard with two columns( twice the width of a typical breadboard ) to access the pins.
+I used the medium sized matrix and the width of the chip is quite large. As a word of caution, you may need a breadboard with two columns( twice the width of a typical breadboard ) to access the pins.
 
 = MAXIM's MAX7219/MAX7221 =
 
-     The 7219 and 7221 are basically the same chip, it shouldn't matter which you use. I used the MAX7221 because if you go to this [https://shop.maximintegrated.com/storefront/searchsample.do MAXIM LINK], and search for MAX7221CNG+, you can get free sample of the chip!!!
+The 7219 and 7221 are basically the same chip, it shouldn't matter which you use. I used the MAX7221 because if you go to this [https://shop.maximintegrated.com/storefront/searchsample.do MAXIM LINK], and search for MAX7221CNG+, you can get free sample of the chip!!!
 
      note: before you order your free samples, be aware that they wont take personal email accounts when you register. You have to use your school email address to get around this.
 *How to order
-# Go to link above and search for MAX7221CNG+ 
-# Click the "sample now" link in the right most column
-# Click the "sample cart" directly below the sites search bar in the top right
-# The initial quantity is set to two, but I changed it to four and still got them for free. (I dont know if there is a cap)
-# Tell them roughly how many hours in a year you plan on using the chip(s)
-# Click the "checkout" link
+  # Go to link above and search for MAX7221CNG+ 
+  # Click the "sample now" link in the right most column
+  # Click the "sample cart" directly below the sites search bar in the top right
+  # The initial quantity is set to two, but I changed it to four and still got them for free. (I dont know if there is a cap)
+  # Tell them roughly how many hours in a year you plan on using the chip(s)
+  # Click the "checkout" link
