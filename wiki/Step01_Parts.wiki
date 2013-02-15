@@ -1,6 +1,6 @@
 #summary Where and how to get parts needed to start using a LED matrix
 
- * Arduino
+ * [Arduino]
 
 = Arduino =
 
