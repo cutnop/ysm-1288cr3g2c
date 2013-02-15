@@ -9,13 +9,13 @@
 = Arduino =
 
 Duh! I'm using an UNO but it doesn't matter which one, we only need three pins (more on this later).   
-
+----
 = LED Matrix =
 
 The YSM-1288CR3G2C is a dual color LED matrix that you can buy from [https://www.sparkfun.com/search/results?term=LED+Matrix&what=products Sparkfun.com]. They have a small for $5, medium for $7, and a large tri-color for $30.
 
 I used the medium sized matrix and the width of the chip is quite large. As a word of caution, you may need a breadboard with two columns (twice the width of a typical breadboard) to access the pins.
-
+----
 = MAXIM's MAX7219/MAX7221 =
 
 The 7219 and 7221 are basically the same chip, it shouldn't matter which you use. I used the MAX7221 because if you go to this [https://shop.maximintegrated.com/storefront/searchsample.do MAXIM LINK], and search for MAX7221CNG+, you can get free samples of the chip!!!
@@ -29,13 +29,13 @@ The 7219 and 7221 are basically the same chip, it shouldn't matter which you use
   # Tell them roughly how many hours in a year you plan on using the chip(s)
   # Click the "checkout" link
   # From here on, you just fill out your information
-
+----
 = Capacitors =
 
 For every MAX chip you need the following:
  * 10.0 microF capacitor
  * 0.1 microF capacitor (aka 100 nanoF)
-
+----
 = Resistors =
 
 With the MAX chips, you only need one resistor per 8x8 color matrix. So there is no need to have tons of resistors for all the LED's.
