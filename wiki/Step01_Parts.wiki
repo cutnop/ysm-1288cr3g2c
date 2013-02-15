@@ -31,7 +31,9 @@ For every MAX chip you need the following:
 
 = Resistors =
 
-First determine the "forward current" and "forward voltage" of each LED color on your matrix datasheet. If you are using the dual color chip I used, the forward current for both red and green is 20 mA. The forward voltage for red is 2 v and green is 3.3 v.
+With the MAX chips, you only need one resistor per 8x8 color matrix. So there is no need to have tons of resistors for all the LED's.
+
+First things first, determine the "forward current" and "forward voltage" of each LED color on your matrix datasheet. If you are using the dual color chip I used (small or medium), the forward current for both red and green is 20 mA. The forward voltage for red is 2 v and green is 3.3 v.
 
 Use the table below to determine the resistor you need for each MAX chip to control a single color on the matrix. 
 
@@ -41,3 +43,6 @@ Use the table below to determine the resistor you need for each MAX chip to cont
 ||30||17.8 kOhm||17.1 kOhm||15.8 kOhm||15.0 kOhm||14.0 kOhm||
 ||20||29.8 kOhm||28.0 kOhm||25.9 kOhm||24.5 kOhm||22.6 kOhm||
 ||10||66.7 kOhm||63.7 kOhm||59.3 kOhm||55.4 kOhm||51.2 kOhm||
+
+The same table can be found in the MAX7219/MAX7221 datasheet.
+According to the table, I need a 28 kOhm resistor for my MAX that will control the red, and a 22.6 kOhm resistor for my MAX that will control the green. I didn't have either so I used a 33 kOhm for red and 27 kOhm for green. If you don't have a particular resistor, you can substitute it with a larger resistor. Your LED's may be dimmer but its better than destroying them.
