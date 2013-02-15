@@ -37,7 +37,7 @@ Use the table below to determine the resistor you need for each MAX chip to cont
 
 ||I,,seg,,(mA) ||||||||||Forward Voltage (V)||
 || ||1.5 kOhm||2.0 kOhm||2.5 kOhm||3.0 kOhm||3.5 kOhm||
-||40||12.2 kOhm||11.8 kOhm||11.0 kOhm||10.6 kOhm||9.69 kOhm||
+||40||12.2||11.8||11.0||10.6||9.69||
 ||30||17.8 kOhm||17.1 kOhm||15.8 kOhm||15.0 kOhm||14.0 kOhm||
 ||20||29.8 kOhm||28.0 kOhm||25.9 kOhm||24.5 kOhm||22.6 kOhm||
 ||10||66.7 kOhm||63.7 kOhm||59.3 kOhm||55.4 kOhm||51.2 kOhm||
