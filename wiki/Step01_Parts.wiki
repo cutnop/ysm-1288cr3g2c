@@ -5,7 +5,7 @@
  * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step01_Parts?ts=1360902248&updated=Step01_Parts#MAXIM's_MAX7219/MAX7221 MAXIM's MAX7219/MAX7221]
  * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step01_Parts?ts=1360902279&updated=Step01_Parts#Capacitors Capacitors]
  * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step01_Parts?ts=1360902306&updated=Step01_Parts#Resistors Resistors]
-=====
+============
 = Arduino =
 
 Duh! I'm using an UNO but it doesn't matter which one, we only need three pins (more on this later).   
