@@ -30,3 +30,14 @@ For every MAX chip you need the following:
  * 0.1 microF capacitor (aka 100 nanoF)
 
 = Resistors =
+
+First determine the "forward current" and "forward voltage" of each LED color on your matrix datasheet. If you are using the dual color chip I used, the forward current for both red and green is 20 mA. The forward voltage for red is 2 v and green is 3.3 v.
+
+Use the table below to determine the resistor you need for each MAX chip to control a single color on the matrix. 
+
+||||Forward Voltage (V)||
+||I,,seg,, (mA)||1.5||2.0||2.5||3.0||3.5||
+||40||12.2||11.8||11.0||10.6||9.69||
+||30||17.8||17.1||15.8||15.0||14.0||
+||20||29.8||28.0||25.9||24.5||22.6||
+||10||66.7||63.7||59.3||55.4||51.2||
