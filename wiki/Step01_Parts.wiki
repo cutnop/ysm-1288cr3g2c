@@ -55,4 +55,5 @@ Use the table below to determine the resistor you need for each MAX chip to cont
 
 The same table can be found in the MAX7219/MAX7221 datasheet.
 According to the table, I need a 28 kOhm resistor for my MAX that will control the red, and a 22.6 kOhm resistor for my MAX that will control the green. I didn't have either so I used a 33 kOhm for red and 27 kOhm for green. If you don't have a particular resistor, you can substitute it with a larger resistor. Your LED's may be dimmer but its better than destroying them.
+
 [http://www.amazon.com/Joe-Knows-Electronics-Value-Resistor/dp/B003UC4FSS/ref=sr_1_2?ie=UTF8&qid=1361106992&sr=8-2&keywords=resistors This link] goes to a nice variety resistors for only $20. 
