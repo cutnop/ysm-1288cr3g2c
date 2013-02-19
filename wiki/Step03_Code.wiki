@@ -24,8 +24,8 @@ C:\arduino-1.0.3\libraries\
  * *lc.shutdown(0, false);*
    * The MAX chips always start out in shutdown mode and need to woken up before they can light leds.
    * 0 = address of first MAX chip. (1 = second, 2 = third, etc)
-   * false = wake up
-   * true = shutdown
+   * false = wake up, true = shutdown
+   * Can be used in setup() or loop()
 ----
 
 *Would you recommend this?*
