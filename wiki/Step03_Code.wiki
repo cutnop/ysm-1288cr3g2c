@@ -1,5 +1,5 @@
 #summary Things to know when using the code
-
+----
 = Install the !LedControl Library =
 
  # [ Download the Library .rar]
@@ -8,7 +8,7 @@
 I installed the arduino program in the root of my "C" drive so the path I put the library is:
 
 C:\arduino-1.0.3\libraries\
-
+----
 = Important !LedControl code =
 
  * *!LedControl lc=!LedControl(10,9,8,2);*
@@ -17,3 +17,7 @@ C:\arduino-1.0.3\libraries\
    *  9 = pin  9 goes to "CLK" of first MAX chip
    *  8 = pin  8 goes to "LOAD" of first MAX chip
    *  2 = number of MAX chips chained together
+----
+
+*Would you recommend this?*
+ <g:plusone size="large"></g:plusone>
