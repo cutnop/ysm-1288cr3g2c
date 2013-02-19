@@ -3,7 +3,7 @@
 = Install the LedControl Library =
 
  # [ Download the Library .rar]
- # UnRAR to *Arduino program folder*/libraries
+ # UnRAR to "*Arduino program folder*"/libraries
 
 I installed the arduino program in the root of my "C" drive so the path I put the library is:
 
@@ -11,7 +11,7 @@ C:\arduino-1.0.3\libraries\
 
 = Important LedControl code =
 
- * LedControl lc=LedControl(10,9,8,2);
+ * *LedControl lc=LedControl(10,9,8,2);*
    # Creates a LedControl to use
    # 10 = pin 10 goes to "DataIn" of first MAX chip
    #  9 = pin  9 goes to "CLK" of first MAX chip
