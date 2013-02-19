@@ -59,4 +59,4 @@ According to the table, I need a 28 kOhm resistor for my MAX that will control t
 [http://www.amazon.com/Joe-Knows-Electronics-Value-Resistor/dp/B003UC4FSS/ref=sr_1_2?ie=UTF8&qid=1361106992&sr=8-2&keywords=resistors This link] goes to a nice variety resistors for only $20. 
 ----
 
-          <g:plusone size="large"></g:plusone>
+*Would you recommend this?*<g:plusone size="large"></g:plusone>
