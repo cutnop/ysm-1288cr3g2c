@@ -5,7 +5,7 @@
  # [ Download the Library .rar]
  # UnRAR to "*Arduino program folder*"/libraries
 
-I installed the arduino program in the root of my "C" drive so the path I put the library is:
+I installed the arduino program in the root of my "C" drive so the path I put the library in is:
 
 C:\arduino-1.0.3\libraries\
 ----
