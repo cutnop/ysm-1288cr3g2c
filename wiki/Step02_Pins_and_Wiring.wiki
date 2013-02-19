@@ -4,7 +4,7 @@
 
 The pin-outs provided in the datasheet are confusing difficult to understand. The following images should help identify each pin as well as which pin connects to the correct MAX7221 pin.
 
-http://ysm-1288cr3g2c.googlecode.com/files/real.jpg
+http://ysm-1288cr3g2c.googlecode.com/files/pinouts2.jpg
 http://ysm-1288cr3g2c.googlecode.com/files/Pinouts.png
 
 = MAX7219/MAX7219 Pins =
