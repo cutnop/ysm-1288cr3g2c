@@ -11,6 +11,6 @@ http://ysm-1288cr3g2c.googlecode.com/files/Pinouts.png
 ----
 = MAX7219/MAX7219 Pins =
 
-
+http://ysm-1288cr3g2c.googlecode.com/files/MAX.png
 ----
 = Arduino + Matrix + 2x MAX7221 =
