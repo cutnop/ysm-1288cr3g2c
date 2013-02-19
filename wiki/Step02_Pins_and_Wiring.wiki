@@ -1,6 +1,8 @@
 #summary Identify pins and how to wire everything together
 
  * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step02_Pins_and_Wiring?ts=1361306270&updated=Step02_Pins_and_Wiring#Matrix_Pins Matrix Pins]
+ * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step02_Pins_and_Wiring#MAX7219/MAX7219_Pins MAX7219 / Max7221 Pins]
+ * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step02_Pins_and_Wiring#Arduino_+_Matrix_+_2x_MAX7221 Schematic]
 ----
 = Matrix Pins =
 
@@ -14,3 +16,4 @@ http://ysm-1288cr3g2c.googlecode.com/files/Pinouts.png
 http://ysm-1288cr3g2c.googlecode.com/files/MAX.png
 ----
 = Arduino + Matrix + 2x MAX7221 =
+http://ysm-1288cr3g2c.googlecode.com/files/Schematic.jpg
