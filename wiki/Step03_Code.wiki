@@ -45,12 +45,12 @@ C:\arduino-1.0.3\libraries\
    * y = position in the y-axis of the LED to be controlled
    * true = turn LED on, false = turn LED off
 
- * *byte a[5]={B01111110,B10001000,B10001000,B10001000,B01111110};*
-   *lc.setRow(0,0,a[0]);*
-   *lc.setRow(0,1,a[1]);*
-   *lc.setRow(0,2,a[2]);*
-   *lc.setRow(0,3,a[3]);*
-   *lc.setRow(0,4,a[4]);*
+ * *lc.setRow(0,1,B11001100)*
+   * Specifies what rows should be connected to ground (and in turn, light LEDs)
+   * 0 = address of MAX chip
+   * 1 = column to apply voltage to
+   * B11001100 = most significant bit = row 0, least significant bit = row 7 (1 = connect to ground, 0 = disconnect from ground)
+
 ----
 
 *Would you recommend this?*
