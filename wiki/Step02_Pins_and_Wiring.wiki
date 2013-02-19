@@ -20,4 +20,9 @@ http://ysm-1288cr3g2c.googlecode.com/files/Pinouts.png
 http://ysm-1288cr3g2c.googlecode.com/files/MAX.png
 ----
 = Arduino + Matrix + 2x MAX7221 =
+
 http://ysm-1288cr3g2c.googlecode.com/files/Schematic.jpg
+----
+
+*Would you recommend this?*
+ <g:plusone size="large"></g:plusone>
