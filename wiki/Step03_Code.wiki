@@ -46,11 +46,11 @@ C:\arduino-1.0.3\libraries\
    * true = turn LED on, false = turn LED off
 
  * *byte a[5]={B01111110,B10001000,B10001000,B10001000,B01111110};*
- * *lc.setRow(0,0,a[0]);
-    lc.setRow(0,1,a[1]);
-    lc.setRow(0,2,a[2]);
-    lc.setRow(0,3,a[3]);
-    lc.setRow(0,4,a[4]);*
+ * *lc.setRow(0,0,a[0]);*
+ * *lc.setRow(0,1,a[1]);*
+ * *lc.setRow(0,2,a[2]);*
+ * *lc.setRow(0,3,a[3]);*
+ * *lc.setRow(0,4,a[4]);*
 ----
 
 *Would you recommend this?*
