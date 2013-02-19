@@ -1,7 +1,7 @@
 #summary Things to know when using the code
 
  * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step03_Code?ts=1361310811&updated=Step03_Code#Install_the_LedControl_Library Install]
- * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step03_Code?ts=1361311150&updated=Step03_Code#Important_LedControl_code Things to know (LedControl)]
+ * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step03_Code?ts=1361311150&updated=Step03_Code#Important_LedControl_code Important things to know (LedControl)]
 
 ----
 = Install the !LedControl Library =
@@ -21,6 +21,11 @@ C:\arduino-1.0.3\libraries\
    *  9 = pin  9 goes to "CLK" of first MAX chip
    *  8 = pin  8 goes to "LOAD" of first MAX chip
    *  2 = number of MAX chips chained together
+ * *lc.shutdown(0, false);*
+   * The MAX chips always start out in shutdown mode and need to woken up before they can light leds.
+   * 0 = address of first MAX chip. (1 = second, 2 = third, etc)
+   * false = wake up
+   * true = shutdown
 ----
 
 *Would you recommend this?*
