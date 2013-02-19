@@ -33,6 +33,17 @@ C:\arduino-1.0.3\libraries\
    * 0 = address of first MAX chip
    * 8 = LED brightness (Range: 0 = low, 16 = high)
    * If not called or brightness not specified, it will default to "0", the lowest setting
+
+ * *lc.clearDisplay(0);*
+   * Turns off all LED's
+   * 0 = address of first MAX chip
+
+ * *lc.setLed(0,x,y,true);*
+   * Control one LED
+   * 0 = address of MAX chip
+   * x = position in the x-axis of the LED to be controlled
+   * y = position in the y-axis of the LED to be controlled
+   * true = turn LED on, false = turn LED off
 ----
 
 *Would you recommend this?*
