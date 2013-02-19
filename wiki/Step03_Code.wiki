@@ -51,6 +51,11 @@ C:\arduino-1.0.3\libraries\
    * 1 = column to apply voltage to
    * B11001100 = most significant bit = row 0, least significant bit = row 7 (1 = connect to ground, 0 = disconnect from ground)
 
+Once you turn an LED on, it will remain on until overwritten or told otherwise. If you turn an LED on, then immediately off, it will seem like the LED never turned on because of the fast scanning.
+To properly us an LED
+ * lc.setLed(0,0,0,true);
+ * delay(500); *insert a delay to let the LED shine before turning it off*
+ * lc.setLed(0,0,0,false);
 ----
 
 *Would you recommend this?*
