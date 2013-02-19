@@ -60,4 +60,4 @@ According to the table, I need a 28 kOhm resistor for my MAX that will control t
 ----
 
 *Would you recommend this?*
-<g:plusone size="large"></g:plusone>
+ <g:plusone size="large"></g:plusone>
