@@ -8,10 +8,14 @@
 
 The pin-outs provided in the datasheet are confusing difficult to understand. The following images should help identify each pin as well as which pin connects to the correct MAX7221 pin.
 
+[http://ysm-1288cr3g2c.googlecode.com/files/SanYoung-Medium-RG.pdf Datasheet]
+
 http://ysm-1288cr3g2c.googlecode.com/files/pinouts2.jpg
 http://ysm-1288cr3g2c.googlecode.com/files/Pinouts.png
 ----
 = MAX7219/MAX7219 Pins =
+
+[http://ysm-1288cr3g2c.googlecode.com/files/COM-09622-MAX7219-MAX7221.pdf Datasheet]
 
 http://ysm-1288cr3g2c.googlecode.com/files/MAX.png
 ----
