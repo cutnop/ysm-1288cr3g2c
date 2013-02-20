@@ -1,4 +1,7 @@
 #summery sidebar links
+
 *[Step01_Parts Step01: The Parts]
+
 *[Step02_Pins_and_Wiring Step02: Pins and Wiring]
+
 *[Step03_Code Step03: The Code]
