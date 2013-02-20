@@ -1,5 +1,5 @@
 #summary sidebar (ignore, this just makes the wiki look nicer)
-
+ * *[Introduction]*
  * [Step01_Parts Step01: The Parts]
    * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step01_Parts?ts=1360902125&updated=Step01_Parts#Arduino Arduino]
    * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step01_Parts?ts=1360902125&updated=Step01_Parts#LED_Matrix LED Matrix]
