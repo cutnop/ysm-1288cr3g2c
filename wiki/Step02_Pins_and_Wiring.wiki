@@ -1,4 +1,5 @@
 #summary Identify pins and how to wire everything together
+#sidebar SideBar
 
  * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step02_Pins_and_Wiring?ts=1361306270&updated=Step02_Pins_and_Wiring#Matrix_Pins Matrix Pins]
  * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step02_Pins_and_Wiring#MAX7219/MAX7219_Pins MAX7219 / Max7221 Pins]
@@ -24,5 +25,5 @@ http://ysm-1288cr3g2c.googlecode.com/files/MAX.png
 http://ysm-1288cr3g2c.googlecode.com/files/Schematic.jpg
 ----
 
-*Would you recommend this?*
+*Would you recommend this page?*
  <g:plusone size="large"></g:plusone>
