@@ -31,7 +31,7 @@ C:\arduino-1.0.3\libraries\
  * *lc.setIntensity(0, 8);*
    * Controls the brightness of the LED's
    * 0 = address of first MAX chip
-   * 8 = LED brightness (Range: 0 = low, 16 = high)
+   * 8 = LED brightness (Range: 0 = low, 15 = high)
    * If not called or brightness not specified, it will default to "0", the lowest setting
 
  * *lc.clearDisplay(0);*
