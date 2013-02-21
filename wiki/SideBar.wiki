@@ -13,5 +13,7 @@
  * [Step03_Code Step03: The Code]
    * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step03_Code?ts=1361310811&updated=Step03_Code#Install_the_LedControl_Library Install]
    * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step03_Code?ts=1361311150&updated=Step03_Code#Important_LedControl_code Important things to know (LedControl)]
+   * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step03_Code?ts=1361482089&updated=Step03_Code#LED_Test_Code LED Test Code]
+   * [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step03_Code?ts=1361482089&updated=Step03_Code#My_Functions My Functions]
 
  <g:plusone size="large"></g:plusone>
