@@ -58,6 +58,7 @@ To properly us an LED
  * lc.setLed(0,0,0,false);
 
 *[Simple code to test all LED's of a 8x8 matrix]*
+
 'If you are using the power from USB, you will see flickering when both red and green turn on to make yellow.'
 ----
 
