@@ -72,11 +72,14 @@ The LedControl library doesn't have an easy way to display numbers or letters, s
 == Important Variables ==
 {{{
 String message; //holds the string to be displayed
+
 //creates a ledcontrol so we can use the MAX chip(s)
 LedControl lc=LedControl(DinPIN,clockPIN,loadPIN,numberOfMAXchips);
+
 //keeps track of what char is or going to be displayed
 int messageIndex;
 int msglength = message.length();
+
 //holds the byte matrix of the leds that will be used for each char
 byte LEDMatrix[maxStringLength][6]; 
 }}}
