@@ -28,6 +28,8 @@ http://ysm-1288cr3g2c.googlecode.com/files/MAX.png
 ----
 = Arduino + Matrix + 2x MAX7221 =
 
+I have the grounds of both chips connecting to the same place because both colors are housed in the same place.
+
 http://ysm-1288cr3g2c.googlecode.com/files/Schematic.jpg
 ----
 
