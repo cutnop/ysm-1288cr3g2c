@@ -16,6 +16,8 @@ http://ysm-1288cr3g2c.googlecode.com/files/Pinouts.png
 ----
 = MAX7219/MAX7219 Pins =
 
+As you can see from the above pin-outs of the matrix, almost all of the pins of the MAX will be pluged into to matrix. The only pins you need are 3 digital pins. One for clock, data, and load.
+
 [http://ysm-1288cr3g2c.googlecode.com/files/COM-09622-MAX7219-MAX7221.pdf Datasheet]
 
 http://ysm-1288cr3g2c.googlecode.com/files/MAX.png
