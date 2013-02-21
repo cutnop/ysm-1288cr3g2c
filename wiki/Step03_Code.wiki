@@ -6,7 +6,7 @@
 ----
 = Install the !LedControl Library =
 
- # [ Download the Library .rar]
+ # [http://code.google.com/p/ysm-1288cr3g2c/downloads/detail?name=LedControl.rar&can=2&q= Download the Library .rar]
  # UnRAR to "*Arduino program folder*"/libraries
 
 I installed the arduino program in the root of my "C" drive so the path I put the library in is:
