@@ -67,7 +67,7 @@ lc.setLed(0,2,3,false); //LED off
 ----
 = My Functions = 
 
-The LedControl library doesn't have an easy way to display numbers or letters, so I made some my self. You can download my sketch that will scroll the numbers 1 to 100, *[http://ysm-1288cr3g2c.googlecode.com/files/_1_to_100__Chip_Project_.rar HERE]*
+The !LedControl library doesn't have an easy way to display numbers or letters, so I made some my self. You can download my sketch that will scroll the numbers 1 to 100, *[http://ysm-1288cr3g2c.googlecode.com/files/_1_to_100__Chip_Project_.rar HERE]*
 
 === Important Variables ===
 {{{
