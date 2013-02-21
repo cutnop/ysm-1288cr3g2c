@@ -55,9 +55,9 @@ Once you turn an LED on, it will remain on until overwritten or told otherwise. 
 To properly us an LED
 {{{ 
 //MAX7221 at address 0, turn the LED at position (2,3) on
-    lc.setLed(0,2,3,true);
-    delay(500); //insert a delay to let the LED shine before turning it off
-    lc.setLed(0,2,3,false); //LED off
+lc.setLed(0,2,3,true);
+delay(500); //insert a delay to let the LED shine before turning it off
+lc.setLed(0,2,3,false); //LED off
 }}}
 
 ----
