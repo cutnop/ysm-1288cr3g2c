@@ -69,7 +69,7 @@ lc.setLed(0,2,3,false); //LED off
 
 The LedControl library doesn't have an easy way to display numbers or letters, so I made some my self. You can download my sketch that will scroll the numbers 1 to 100, *[http://ysm-1288cr3g2c.googlecode.com/files/_1_to_100__Chip_Project_.rar HERE]*
 
-== Important Variables ==
+=== Important Variables ===
 {{{
 #define delaytime 500 //delay between led refresh
 
@@ -85,13 +85,13 @@ int msglength = message.length();
 //holds the byte matrix of the leds that will be used for each char
 byte LEDMatrix[maxStringLength][6]; 
 }}}
-== String to Byte Matrix ==
+=== String to Byte Matrix ===
  * *void LEDMatrixBytes(byte pLEDMatrix`[`maxStringLength`]``[`6`]`)*
      When ever the message string to be displayed is changed, this function must be called to update the byte matrix that is displayed.
 
  * *void LEDcolumns(byte pletter`[`6`]`,char x)*
      Used by the *LEDMatrixBytes* function, this function returns an array of the proper bits for the char passed to it.
-== Displaying the String ==
+=== Displaying the String ===
  * *void oneByOne()*
      Displays each char of your string using the bytes from the LEDMatrix one by one with the delay of "delaytime".
 
