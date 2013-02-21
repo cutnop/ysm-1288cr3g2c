@@ -86,16 +86,16 @@ int msglength = message.length();
 byte LEDMatrix[maxStringLength][6]; 
 }}}
 == String to Byte Matrix ==
-*void LEDMatrixBytes(byte pLEDMatrix[maxStringLength][6])*
+* *void LEDMatrixBytes(byte pLEDMatrix![maxStringLength]![6])*
      When ever the message string to be displayed is changed, this function must be called to update the byte matrix that is displayed.
 
-*void LEDcolumns(byte pletter[6],char x)*
+* *void LEDcolumns(byte pletter![6],char x)*
      Used by the *LEDMatrixBytes* function, this function returns an array of the proper bits for the char passed to it.
 == Displaying the String ==
-*void oneByOne()*
+* *void oneByOne()*
      Displays each char of your string using the bytes from the LEDMatrix one by one with the delay of "delaytime".
 
-*void scroll()*
+* *void scroll()*
      Displays each char of your string using the bytes from the LEDMatrix and scrolls them from right to left with the delay of "delaytime".
 ----
 *Would you recommend this page?*
