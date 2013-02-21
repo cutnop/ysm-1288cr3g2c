@@ -3,6 +3,8 @@
 = Introduction =
 
 This is a simple tutorial/guide on how to use a 8x8 LED matrix with the help of an arduino and some MAX7221 LED drivers. The sidebar to the left will walk you through the different things you need to know before getting your matrix to display anything.
+
+To see my PowerPoint presentation with the speech in the notes, go to this [http://ysm-1288cr3g2c.googlecode.com/files/8x8%20Dual%20Color.pptm link].
 ----
 = Issues =
 
