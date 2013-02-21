@@ -53,11 +53,9 @@ C:\arduino-1.0.3\libraries\
 
 Once you turn an LED on, it will remain on until overwritten or told otherwise. If you turn an LED on, then immediately off, it will seem like the LED never turned on because of the fast scanning.
 To properly us an LED
- ` lc.setLed(0,0,0,true);`
-
- ` delay(500);` *insert a delay to let the LED shine before turning it off*
-
- ` lc.setLed(0,0,0,false);`
+{{{ lc.setLed(0,0,0,true);
+    delay(500); //insert a delay to let the LED shine before turning it off
+    lc.setLed(0,0,0,false);}}}
 
 ----
 = LED Test Code =
