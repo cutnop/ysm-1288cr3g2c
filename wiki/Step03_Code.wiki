@@ -57,7 +57,9 @@ To properly us an LED
  * delay(500); *insert a delay to let the LED shine before turning it off*
  * lc.setLed(0,0,0,false);
 
-*[Simple code to test all LED's of a 8x8 matrix]*
+----
+= LED Test Code =
+*[http://ysm-1288cr3g2c.googlecode.com/files/test.rar Simple code to test all LED's of a 8x8 matrix]*
  _If you are using the power from USB, you will see flickering when both red and green turn on to make yellow._
 ----
 
