@@ -20,6 +20,7 @@ As you can see from the above pin-outs of the matrix, almost all of the pins of 
 
  * The resistor you picked out earlier will connect the I,,SET,, to Vcc.
  * Your capacitors in parallel will connect between Vcc and the grounds of the MAX
+ * The "data" pin from the arduino will connect to the DIN of the first MAX chip. To connect multiple MAX chips, take the DOUT pin to the DIN pin of the next MAX chip.
 
 [http://ysm-1288cr3g2c.googlecode.com/files/COM-09622-MAX7219-MAX7221.pdf Datasheet]
 
