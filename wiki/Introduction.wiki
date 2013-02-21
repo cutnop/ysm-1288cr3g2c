@@ -7,6 +7,12 @@ Add your content here.
 
 = Issues =
 
-* Problem: The matrix chip comes in small, medium, and large. If you use the medium or large, the width of the chip will prevent it from fitting into a single breadboard.
+ * Problem: The matrix chip comes in small, medium, and large. If you use the medium or large, the width of the chip will prevent it from fitting into a single breadboard.
 
-    Solution: Connect multiple breadboards together, or get a large breadboard.
+     Solution: Connect multiple breadboards together, or get a large breadboard.
+
+ * Problem: When chaining two or more MAX7221 LED drivers, not enough current can be pulled from the arduino. Each IC needs 330 mA.
+
+     Almost solution #1 - In code, when setting up the MAX7221 chips, dont initialize a brightness. This will let you light all LED's with one or both colors with dim LED's. The problem with this is, the scan rate is slow enough to see flickering in the LED's, and you cant vary the colors by adjusting brightness.
+
+     Almost solution #2 - In code, don't wake the MAX chips out of shutdown mode (but you can set intensity). In your loop and methods, alternate which chip stays on to light the matrix. You wont see any flickering and you can adjust the brightness of the LED's. Issue is you can only display one color at a time.
