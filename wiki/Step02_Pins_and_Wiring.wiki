@@ -12,6 +12,8 @@ The pin-outs provided in the datasheet are confusing difficult to understand. Th
 [http://ysm-1288cr3g2c.googlecode.com/files/SanYoung-Medium-RG.pdf Datasheet]
 
 http://ysm-1288cr3g2c.googlecode.com/files/pinouts2.jpg
+
+*!!!UPDATE!!!* Anode pins are shown in reverse below. So Pin 20 and Pin 5 are "Seg DP", not "Seg G". And Pin 13 and 12 are "Seg G"
 http://ysm-1288cr3g2c.googlecode.com/files/Pinouts.png
 ----
 = MAX7219/MAX7219 Pins =
@@ -30,6 +32,7 @@ http://ysm-1288cr3g2c.googlecode.com/files/MAX.png
 
 I have the grounds of both chips connecting to the same place because both colors are housed in the same place.
 
+*!!!UPDATE!!!* Pin letters on the matrix are incorrect look at the update note above [http://code.google.com/p/ysm-1288cr3g2c/wiki/Step02_Pins_and_Wiring?ts=1361306270&updated=Step02_Pins_and_Wiring#Matrix_Pins Matrix Pins]
 http://ysm-1288cr3g2c.googlecode.com/files/Schematic.jpg
 ----
 
