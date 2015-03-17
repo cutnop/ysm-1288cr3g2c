@@ -1,0 +1,69 @@
+
+---
+
+# Arduino #
+
+Duh! I'm using an UNO but it doesn't matter which one, we only need three pins (more on this later).
+
+---
+
+# LED Matrix #
+
+The YSM-1288CR3G2C is a dual color LED matrix that you can buy from [Sparkfun.com](https://www.sparkfun.com/search/results?term=LED+Matrix&what=products). They have a small for $5, medium for $7, and a large tri-color for $30.
+
+I used the medium sized matrix and the width of the chip is quite large. As a word of caution, you may need a breadboard with two columns (twice the width of a typical breadboard) to access the pins.
+
+---
+
+# MAXIM's MAX7219/MAX7221 #
+
+The 7219 and 7221 are basically the same chip, it shouldn't matter which you use. I used the MAX7221 because if you go to this [MAXIM LINK](https://shop.maximintegrated.com/storefront/searchsample.do), and search for MAX7221CNG+, you can get free samples of the chip!!!
+
+> note: before you order your free samples, be aware that they wont take personal email accounts when you register. You have to use your school email address to get around this.
+**How to order
+  1. [GO HERE](https://shop.maximintegrated.com/storefront/searchsample.do) and search for MAX7221CNG+
+  1. Click the "sample now" link in the right most column
+  1. Click the "sample cart" directly below the sites search bar in the top right
+  1. The initial quantity is set to two, but I changed it to four and still got them for free. (I dont know if there is a cap)
+  1. Tell them roughly how many hours in a year you plan on using the chip(s)
+  1. Click the "checkout" link
+  1. From here on, you just fill out your information
+
+---
+
+# Capacitors #**
+
+For every MAX chip you need the following:
+  * 10.0 microF capacitor
+  * 0.1 microF capacitor (aka 100 nanoF)
+
+You can get 10 of both at [this link here.](http://www.amazon.com/Joe-Knows-Electronics-Value-Capacitor/dp/B007SVHFXO/ref=sr_1_1?ie=UTF8&qid=1361107004&sr=8-1&keywords=capacitors)
+
+---
+
+# Resistors #
+
+With the MAX chips, you only need one resistor per 8x8 color matrix. So there is no need to have tons of resistors for all the LED's.
+
+First things first, determine the "forward current" and "forward voltage" of each LED color on your matrix datasheet. If you are using the dual color chip I used (small or medium), the forward current for both red and green is 20 mA. The forward voltage for red is 2 v and green is 3.3 v.
+
+Use the table below to determine the resistor you need for each MAX chip to control a single color on the matrix.
+
+|I<sub>F</sub>(mA) |Forward Voltage (V)| | | | |
+|:-----------------|:------------------|:|:|:|:|
+|  |1.5|2.0|2.5|3.0|3.5|
+|40|12.2 kOhm|11.8 kOhm|11.0 kOhm|10.6 kOhm|9.69 kOhm|
+|30|17.8 kOhm|17.1 kOhm|15.8 kOhm|15.0 kOhm|14.0 kOhm|
+|20|29.8 kOhm|28.0 kOhm|25.9 kOhm|24.5 kOhm|22.6 kOhm|
+|10|66.7 kOhm|63.7 kOhm|59.3 kOhm|55.4 kOhm|51.2 kOhm|
+
+The same table can be found in the MAX7219/MAX7221 datasheet.
+According to the table, I need a 28 kOhm resistor for my MAX that will control the red, and a 22.6 kOhm resistor for my MAX that will control the green. I didn't have either so I used a 33 kOhm for red and 27 kOhm for green. If you don't have a particular resistor, you can substitute it with a larger resistor. Your LED's may be dimmer but its better than destroying them.
+
+[This link](http://www.amazon.com/Joe-Knows-Electronics-Value-Resistor/dp/B003UC4FSS/ref=sr_1_2?ie=UTF8&qid=1361106992&sr=8-2&keywords=resistors) goes to a nice variety resistors for only $20.
+
+---
+
+
+**Would you recommend this page?**
+> 

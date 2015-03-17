@@ -1,0 +1,19 @@
+# Introduction #
+
+This is a simple tutorial/guide on how to use a 8x8 LED matrix with the help of an arduino and some MAX7221 LED drivers. The sidebar to the left will walk you through the different things you need to know before getting your matrix to display anything.
+
+To see my PowerPoint presentation with the speech in the notes, go to this [link](http://ysm-1288cr3g2c.googlecode.com/files/8x8%20Dual%20Color.pptm).
+
+---
+
+# Issues #
+
+In case you ignored my tip about going to the issues tab first. . .
+
+  * **Problem**: The matrix chip comes in small, medium, and large. If you use the medium or large, the width of the chip will prevent it from fitting into a single breadboard.
+    * **Solution**: Connect multiple breadboards together, or get a large breadboard.
+
+  * **Problem**: When chaining two or more MAX7221 LED drivers, not enough current can be pulled from the arduino. Each IC needs 330 mA (500 mA from arduino uno usb).
+    * **Almost solution #1**: - In code, when setting up the MAX7221 chips, dont initialize a brightness. This will let you light all LED's with one or both colors with dim LED's. The problem with this is, the scan rate is slow enough to see flickering in the LED's, and you cant vary the colors by adjusting brightness.
+    * **Almost solution #2:** - In setup, don't wake the MAX chips out of shutdown mode like you would normally (but you can set intensity). In your loop and methods, alternate which chip turns on to light the matrix. You wont see any flickering and you can adjust the brightness of the LED's. Issue is you can only display one color at a time.
+    * **Possible solution**: - Use an external 5v power supply with the ability to supply enough current (not tested)

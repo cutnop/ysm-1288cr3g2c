@@ -1,0 +1,108 @@
+
+---
+
+# Install the LedControl Library #
+
+  1. [Download the Library rar](http://ysm-1288cr3g2c.googlecode.com/files/LedControl.rar)
+  1. UnRAR to "**Arduino program folder**"/libraries
+
+I installed the arduino program in the root of my "C" drive so the path I put the library in is:
+
+C:\arduino-1.0.3\libraries\
+
+---
+
+# Important LedControl code #
+
+  * **LedControl lc=LedControl(10,9,8,2);**
+    * Creates a LedControl to use
+    * 10 = pin 10 goes to "DataIn" of first MAX chip
+    * 9 = pin  9 goes to "CLK" of first MAX chip
+    * 8 = pin  8 goes to "LOAD" of first MAX chip
+    * 2 = number of MAX chips chained together
+
+  * **lc.shutdown(0, false);**
+    * The MAX chips always start out in shutdown mode and need to woken up before they can light leds.
+    * 0 = address of first MAX chip (1 = second, 2 = third, etc)
+    * false = wake up, true = shutdown
+    * Can be used in setup() or loop()
+
+  * **lc.setIntensity(0, 8);**
+    * Controls the brightness of the LED's
+    * 0 = address of first MAX chip
+    * 8 = LED brightness (Range: 0 = low, 15 = high)
+    * If not called or brightness not specified, it will default to "0", the lowest setting
+
+  * **lc.clearDisplay(0);**
+    * Turns off all LED's
+    * 0 = address of first MAX chip
+
+  * **lc.setLed(0, x, y, true);**
+    * Control one LED
+    * 0 = address of MAX chip
+    * x = position in the x-axis of the LED to be controlled
+    * y = position in the y-axis of the LED to be controlled
+    * true = turn LED on, false = turn LED off
+
+  * **lc.setRow(0,1,B11001100)**
+    * Specifies what rows should be connected to ground (and in turn, light LEDs)
+    * 0 = address of MAX chip
+    * 1 = column to apply voltage to
+    * B11001100 = most significant bit = row 0, least significant bit = row 7 (1 = connect to ground, 0 = disconnect from ground)
+
+Once you turn an LED on, it will remain on until overwritten or told otherwise. If you turn an LED on, then immediately off, it will seem like the LED never turned on because of the fast scanning.
+To properly us an LED
+```
+//MAX7221 at address 0, turn the LED at position (2,3) on
+lc.setLed(0,2,3,true);
+delay(500); //insert a delay to let the LED shine before turning it off
+lc.setLed(0,2,3,false); //LED off
+```
+
+
+---
+
+# LED Test Code #
+**[Simple code to test all LED's of a 8x8 matrix](http://ysm-1288cr3g2c.googlecode.com/files/test.rar)**
+> _If you are using the power from USB, you will see flickering when both red and green turn on to make yellow._
+
+---
+
+# My Functions #
+
+The LedControl library doesn't have an easy way to display numbers or letters, so I made some my self. You can download my sketch that will scroll the numbers 1 to 100, **[HERE](http://ysm-1288cr3g2c.googlecode.com/files/_1_to_100__Chip_Project_.rar)**
+
+### Important Variables ###
+```
+#define delaytime 500 //delay between led refresh
+
+String message; //holds the string to be displayed
+
+//creates a ledcontrol so we can use the MAX chip(s)
+LedControl lc=LedControl(DinPIN,clockPIN,loadPIN,numberOfMAXchips);
+
+//keeps track of what char is or going to be displayed
+int messageIndex;
+int msglength = message.length();
+
+//holds the byte matrix of the leds that will be used for each char
+byte LEDMatrix[maxStringLength][6]; 
+```
+### String to Byte Matrix ###
+  * **void LEDMatrixBytes(byte pLEDMatrix`[`maxStringLength`]``[`6`]`)**
+> > When ever the message string to be displayed is changed, this function must be called to update the byte matrix that is displayed.
+
+  * **void LEDcolumns(byte pletter`[`6`]`,char x)**
+> > Used by the **LEDMatrixBytes** function, this function returns an array of the proper bits for the char passed to it.
+### Displaying the String ###
+  * **void oneByOne()**
+> > Displays each char of your string using the bytes from the LEDMatrix one by one with the delay of "delaytime".
+
+  * **void scroll()**
+> > Displays each char of your string using the bytes from the LEDMatrix and scrolls them from right to left with the delay of "delaytime".
+
+---
+
+**Would you recommend this page?**
+
+> 
